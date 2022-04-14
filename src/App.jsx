@@ -11,11 +11,16 @@ import Navigation from './components/navigation/Navigation';
 
 const App = () => {
   return (
-      <>
+    <>
         <Header />
         <Navigation />
         <About />
+        <Experience />
+        <Services />
+        <Portfolio />
+        <Testimonials />
         <Contact />
+        <Footer />
       </>
   )
 }
