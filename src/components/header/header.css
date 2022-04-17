@@ -1,7 +1,15 @@
 header {
-     height: 100vh;
-     padding-top: 7rem;
-     overflow: hidden;
+    background-image: url('../../assets/profile-0.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.6);
+    height: 100vh;
+    padding-top: 7rem;
 }
 
 .header__container {
@@ -10,6 +18,15 @@ header {
     position: relative;
 }
 
+.action {
+    padding-top: 8rem;
+    /* top: calc(50% - 7rem); */
+}
+
+.action h1 {
+    font-size: 4rem;
+    font-family: Helvetica, sans-serif;
+}
 
 .cta {
     margin-top: 2.0rem;
@@ -35,6 +52,7 @@ header {
     height: 2rem;
     background: var(--color-primary);
 }
+
 .header__socials::before {
     content: '';
     width: 1px;
@@ -43,32 +61,105 @@ header {
 }
 
 .me-0 {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 14rem;
-    height: 23rem;
+    background: linear-gradient(transparent, transparent);
+    width: 7rem;
+    height: 7rem;
     position: absolute;
-    left: calc(20% - 7rem);
-    top: calc(50% - 10rem);
-    margin-top: 4rem;
+    left: calc(20% - 17rem);
+    top: calc(50% - 5rem);
+    margin-top: 1rem;
     border-radius: 12rem 12rem 12rem 12rem;
     overflow: hidden;
     padding: 2rem 1.5rem 1.5rem 1.5rem;
-    transform:skew(-10deg)
+    /* transform:skew(-10deg); */
 }
 
 .me-1 {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 14rem;
-    height: 23rem;
+    background:  linear-gradient(transparent, transparent);
+    width: 7rem;
+    height: 7rem;
     position: absolute;
     right: calc(20% - 7rem);
     top: calc(50% - 10rem);
-    margin-top: 4rem;
+    margin-top: 1rem;
     border-radius: 12rem 12rem 12rem 12rem;
     overflow: hidden;
     padding: 2rem 1.5rem 1.5rem 1.5rem;
-    transform:skew(10deg)
+    /* transform:skew(10deg) */
 }
+
+.me-3 {
+    background:  linear-gradient(transparent, transparent);
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    right: calc(20% - 15rem);
+    top: calc(50% - 23rem);
+    margin-top: 1rem;
+    border-radius: 12rem 12rem 12rem 12rem;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    /* transform:skew(10deg) */
+}
+
+.me-4 {
+    background: linear-gradient(transparent, transparent);;
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    right: calc(30% - 0rem);
+    top: calc(50% - 23rem);
+    margin-top: 1rem;
+    border-radius: 12rem 12rem 12rem 12rem;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    /* transform:skew(10deg) */
+}
+
+.me-5 {
+    background:  linear-gradient(transparent, transparent);
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    left: calc(20% - 20rem);
+    top: calc(50% - 22rem);
+    margin-top: 1rem;
+    border-radius: 12rem 12rem 12rem 12rem;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    /* transform:skew(-10deg); */
+}
+
+.me-6 {
+    background:  linear-gradient(transparent, transparent);;
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    left: calc(25% - 0rem);
+    top: calc(50% - 15rem);
+    margin-top: 1rem;
+    border-radius: 12rem 12rem 12rem 12rem;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    /* transform:skew(-10deg); */
+}
+
+
+.me-7 {
+    background:  linear-gradient(transparent, transparent);
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    left: calc(20% - 1rem);
+    top: calc(70% - 1rem);
+    margin-top: 1rem;
+    border-radius: 12rem 12rem 12rem 12rem;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+}
+
+
+
 
 .me-2    {
     background: linear-gradient(var(--color-primary), transparent);
@@ -80,6 +171,20 @@ header {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.me-8 {
+    background:  linear-gradient(transparent, transparent);
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    right: calc(20% - 0rem);
+    bottom: calc(50% - 10rem);
+    margin-top: 1rem;
+    border-radius: 12rem 12rem 12rem 12rem;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    /* transition: ease; */
 }
 
 .scroll__down {
